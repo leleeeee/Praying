@@ -1,8 +1,20 @@
-const https = require('https')
-const port = 3000
+const express = require(`express`)
+const morgan = require(`morgan`)
+const helmet = require(`helmet`)
+const cors = require(`cors`)
 
-const server = https.createServer(function(req, res){
+const port = process.env.PORT || 3000
+const app = express()
 
-}) 
+app.use(helmet())
+app.use(morgan('tiny'))
+app.use(cors())
+app.use(express.json())
 
-server.listen(port)
+app.get("/", (req, res) => {
+    res.json("Hello")
+})
+
+app.listen(port, () => {
+    console.log(`Server is listening to port: ${port}`)
+})
