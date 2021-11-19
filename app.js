@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
-    res.json("Hello")
+    res.sendFile(__dirname + "/FE/views/main.hbs")
 })
 
 app.listen(port, () => {
