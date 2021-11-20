@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const connDatabase = () => {
-    const mongoUrl = `mongodb+srv://${Process.env.MONGO_USER}:${Process.env.MONGO_PASS}@cluster0.afe0o.mongodb.net/test`
+    const mongoUrl = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.afe0o.mongodb.net/test`
     console.log(`Connecting to ${mongoUrl}`);
     mongoose.Promise = global.Promise;
 
@@ -9,8 +9,6 @@ const connDatabase = () => {
         .connect(mongoUrl,{
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            useCreateIndex: true,
-            useFindAndModify: false,
         })
         .then(() => {
             console.log("Successfully connect to Database")
@@ -21,4 +19,4 @@ const connDatabase = () => {
         })
 }
 
-export default connDatabase;
+module.exports = connDatabase;
