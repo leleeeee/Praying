@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-prayforus-project",
+  "private_key_id": "90fce9851ed441ba9b60bb5eba5b51b53906def1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTtTQ45MIuMvlu\n7IGuYWvEMEGz5hnsFXc4PG+UROc/ik3Gpp7bmhP/NS9AE+oVYEeaFfBNWSplM9x/\n8/WXGdmakEIPm+hTlgazzC8mgvuzqMIX/6ZhKjPXz8eXPJ9xbCwQVHY6rlcTLxQL\nLQVIt7JvTrL7G/CVxhASJ0F/TVBqb2Q6eMzugIqCThHIvHt7Z+IBYxMCzkZUoeOo\n9BnRjrOSv4F6rDgmKYh7DpQLWOh3/JqYjMY0tdlToc6XnVgwe8TLC1kVL0Mx4RMM\nigVj+njE5QvmYlGkIa8B3Z827kRv3DuLXG38X1h4tIrvUKE3KIZM2mnp702ofuRK\n7bmkVSP7AgMBAAECggEAFLatKjHg+THd63ydauk3k5BLJWW1PJQ/FWlTBh/rEPGg\nZCLSS9cv71o4n3LeBi26OQ5oyWXuJXe6XRSKqg2Kl7pXPv1jRlED99yER9GB/KqI\nJF6hh0Pgov6+ia1nRkAuBteqDQTDb+o9HPjQhF8Lc3jblIEVJs+kVo+xCK+7rKYV\nWwzUkMja/o9wSqUrgaHM7xnyu8xE3makfohmGA8PTtSI7sILBsN4NFyrZQhNY5Q1\nvyoTWh4g0Z/k4iN1AlfZnriWglKVs7PxaessBOyECxQ7arQDqHH6KNpFuyOEy7GM\nymGII1mG5TxhAOyaI22SJF8BEdIl2454+9YD1yZloQKBgQD+9d9ZEPVUfkqPxlxw\nxZv2/V1/oQZcxZ4gL1AbLlGNYlU6xG5URBxBzWaMmoyng3CTxUalj8NuTMK2zvnZ\nKr0cZN4lh4La7uJarKENMqom5j4vDQ9m2aDFtLmrLp3U4RU3mA2mnLdQHgbOK0Dk\ntBGOj0amT5fBOIyuajRO8pgFYQKBgQDUki862xkoGwGJmtVi0upkCvrc2IWQrJWv\nBuqTT19FBzn1Ip+UakebQfPr0zWmXE5HFpEC3CEm2l4XVi0MfPhsPMDwIAt3MEBi\nUS5oGkvNk9KzE9yuSaSjo/wXpESKf34dWf/mvSAbntMmZkuliowTXRn288iDa2o1\nF/j+2krK2wKBgQC/tSTRlbzCYYuy+9X6Pbv+RZiOJQfhrf4t+SVkqrlLdArd+2Fy\nHxyYJdfcFUF5m42ErytlxemPAEzQpGSddFNqDDY1ReWQtVqiD3exsszaHvnW6x0P\nmsgWoMOTAaRPs0b+3Gg3RVNY/JrlXwSWcwdYiEb5OpPDB8BQTS8zxZmlQQKBgHQ7\nVr3s7Y2DbszKL+GwiF+ZrWAyuJ3J8LLaqktQPDynXeaPPwjNMEhRwMlzHMPRdy/h\nw/r3WN1Ay/Agu9M3RjMQ6UKjkwFiDeJ0l1ZvAoHvUWd/9cwLEo4z7XUT6jJ80f3E\np2uIgFT5/GTjzHtBDaTM5JSm6j4J7vIHIKxhukG/AoGBANgoxSSJvlcr37QdZ4hq\nZoEbu254FHpgATXm63JK+/aVyvnmlsj9R+hJHkd8JAMPzQ6YtQEquM289Dyn/y4D\nMCpE2+m2f+2HAko3F8rGb3mL9gIoHHzvjey5gAjdOmSE3kkSAmu/1puqJueezNxD\nsxI4pCenn45sgHEDVVQtHJRw\n-----END PRIVATE KEY-----\n",
+  "client_email": "huynhducle20000@my-prayforus-project.iam.gserviceaccount.com",
+  "client_id": "110003767509251998502",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/huynhducle20000%40my-prayforus-project.iam.gserviceaccount.com"
+}
