@@ -1,13 +1,6 @@
 const {google} = require('googleapis')
 const keys = require("./keys.json")
 
-document.querySelector('#pray_form').onsubmit = function(e){
-    e.preventDefault()
-
-    let pray = document.querySelector('#exampleFormControlTextarea1')
-    console.log(pray)
-}
-
 const client = new google.auth.JWT(
     keys.client_email,
     null,
@@ -15,18 +8,16 @@ const client = new google.auth.JWT(
     ['https://www.googleapis.com/auth/spreadsheets']
 )
 
-async function clientAuth(data, res){
-    res = await client.authorize(function(err, token){
+function clientAuth(data){
+    client.authorize(function(err, token){
         if (err){
             console.log(err)
-            return
+            return "404"
         } else {
             console.log("Connected!")
             gsrun(client, data)
         }
     })
-
-    return data
 }
 
 async function gsrun(cl, newData){
