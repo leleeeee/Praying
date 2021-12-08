@@ -654,9 +654,9 @@
             vid.src = "././FE/resources/" + randomVideo()
             vid.load()
 
-            gapi.auth2.getAuthInstance().signIn();
-            console.log(gapi.auth2.getAuthInstance().isSignedIn.get())
-            updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get())
+            //gapi.auth2.getAuthInstance().signIn();
+            //console.log(gapi.auth2.getAuthInstance().isSignedIn.get())
+            //updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get())
         }
         prayBtn.addEventListener("click", onPraySubmit)
 
@@ -665,7 +665,7 @@
           return "vid_0" + d.toString() + ".mp4"
         }
     </script>
-    <script>
+    <!--<script>
       const d = new Date();
       const shortDate = d.toISOString().slice(0, d.toISOString().indexOf("T"))
       const time = d.toISOString().slice(d.toISOString().indexOf("T") + 1, d.toISOString().length - 1)
@@ -749,7 +749,7 @@
       <script async defer src="https://apis.google.com/js/api.js"
         onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
-      </script>
+      </script> -->
 </body>
 
 </html>
